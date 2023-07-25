@@ -1,0 +1,60 @@
+.port-folio .technical-listing {
+    width: 80%;
+    margin-left: 20%
+}
+
+@media only screen and (min-width:0px) and (max-width:900px) {
+    .port-folio .technical-listing {
+        width: 100%;
+        margin-left: 0
+    }
+}
+
+.port-folio .technical-listing ul li {
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 400;
+    padding: 24px 10px;
+    width: 100%;
+    border-top: 1px solid #a1a1a1
+}
+
+.port-folio .technical-listing ul li:is(:last-child) {
+    border-bottom: 1px solid #a1a1a1
+}
+
+.port-folio.technical{
+    padding-top: 220px;
+}
+ .container{    
+    width: 80%;
+    
+
+} 
+
+/* .container {
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.port-folio .bloc-header {
+    margin-bottom: 100px;
+    color: #fff;
+    
+}
+.port-folio{
+    background: #000;
+}
+
+.separator {
+    width: 120px;
+    height: 1px;
+    background: #5e5e5e;
+    margin: 40px 0 40px 80px;
+    content: " ";
+    display: block;
+    margin-left: 30%;
+}
